@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reforma Tributária do Consumo no Brasil - Carrossel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header" id="app-header">
+        <div class="logo">
+            <span class="logo-icon">◆</span>
+            Reforma Tributária
+        </div>
+        <div class="controls">
+            <button onclick="toggleViewMode('carousel')" id="btn-carousel" class="btn active">◉ Carrossel</button>
+            <button onclick="toggleViewMode('grid')" id="btn-grid" class="btn">⊞ Grade</button>
+            <button onclick="window.print()" class="btn btn-export">⬇ Exportar PDF</button>
+        </div>
+    </header>
+
+    <main class="viewer-container carousel-mode" id="viewer">
+
+        <!-- ===================== SLIDE 1: CAPA ===================== -->
+        <section class="slide slide-cover" id="slide-1">
+            <div class="slide-inner">
+                <!-- Decorative elements -->
+                <div class="deco-orb orb-1"></div>
+                <div class="deco-orb orb-2"></div>
+                <div class="deco-orb orb-3"></div>
+                <div class="grid-overlay"></div>
+
+                <div class="slide-content">
+                    <div class="badge">
+                        <span class="badge-dot"></span>
+                        GUIA COMPLETO 2025
+                    </div>
+
+                    <h1 class="cover-title">
+                        Reforma<br>
+                        Tributária<br>
+                        <span class="gradient-text">no Brasil</span>
+                    </h1>
+
+                    <p class="cover-subtitle">O que muda na prática para o seu bolso, sua empresa e o país.</p>
+
+                    <div class="cover-visual">
+                        <div class="hex-grid">
+                            <div class="hex hex-1"><span>CBS</span></div>
+                            <div class="hex hex-2"><span>IBS</span></div>
+                            <div class="hex hex-3"><span>IVA</span></div>
+                        </div>
+                    </div>
+
+                    <div class="cover-footer">
+                        <span class="ig-handle">@milenelucena87</span>
+                        <span class="swipe-cta">Arraste →</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SLIDE 2: O NOVO SISTEMA ===================== -->
+        <section class="slide slide-system" id="slide-2">
+            <div class="slide-inner">
+                <div class="deco-orb orb-1"></div>
+                <div class="deco-orb orb-2"></div>
+                <div class="grid-overlay"></div>
+
+                <div class="slide-content">
+                    <div class="badge">
+                        <span class="badge-dot"></span>
+                        O NOVO SISTEMA
+                    </div>
+
+                    <h2 class="slide-heading">
+                        Simplificação:<br>
+                        <span class="gradient-text">De 5 para 2</span>
+                    </h2>
+
+                    <p class="slide-subtext">O IVA Dual unifica os impostos sobre consumo em apenas dois tributos modernos.</p>
+
+                    <div class="system-comparison">
+                        <div class="system-col system-old">
+                            <div class="system-label label-old">EXTINTOS</div>
+                            <div class="tax-chips">
+                                <div class="chip chip-old">PIS <span class="chip-sub">Federal</span></div>
+                                <div class="chip chip-old">COFINS <span class="chip-sub">Federal</span></div>
+                                <div class="chip chip-old">IPI <span class="chip-sub">Federal</span></div>
+                                <div class="chip chip-old">ICMS <span class="chip-sub">Estadual</span></div>
+                                <div class="chip chip-old">ISS <span class="chip-sub">Municipal</span></div>
+                            </div>
+                        </div>
+
+                        <div class="arrow-divider">
+                            <div class="arrow-line"></div>
+                            <div class="arrow-circle">→</div>
+                            <div class="arrow-line"></div>
+                        </div>
+
+                        <div class="system-col system-new">
+                            <div class="system-label label-new">NOVOS</div>
+                            <div class="tax-chips">
+                                <div class="chip chip-new chip-large">
+                                    <strong>CBS</strong>
+                                    <span class="chip-detail">Contribuição sobre Bens e Serviços</span>
+                                    <span class="chip-scope">Federal</span>
+                                </div>
+                                <div class="chip chip-new chip-large">
+                                    <strong>IBS</strong>
+                                    <span class="chip-detail">Imposto sobre Bens e Serviços</span>
+                                    <span class="chip-scope">Estadual + Municipal</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cover-footer">
+                        <span class="ig-handle">@milenelucena87</span>
+                        <span class="swipe-cta">Arraste →</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SLIDE 3: CONSUMIDORES ===================== -->
+        <section class="slide slide-people" id="slide-3">
+            <div class="slide-inner">
+                <div class="deco-orb orb-1 orb-pink"></div>
+                <div class="deco-orb orb-2 orb-pink"></div>
+                <div class="grid-overlay"></div>
+
+                <div class="slide-content">
+                    <div class="badge badge-pink">
+                        <span class="badge-dot dot-pink"></span>
+                        PARA O CIDADÃO
+                    </div>
+
+                    <h2 class="slide-heading">
+                        O que muda para<br>
+                        <span class="gradient-text-pink">Você e sua Família</span>
+                    </h2>
+
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <div class="feature-emoji">🛒</div>
+                            <div class="feature-body">
+                                <h4>Cesta Básica Nacional</h4>
+                                <p><strong>Alíquota zero</strong> de imposto para alimentos essenciais.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-emoji">💸</div>
+                            <div class="feature-body">
+                                <h4>Cashback de Impostos</h4>
+                                <p>Devolução automática para famílias de baixa renda (luz, gás, água).</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-emoji">🎓</div>
+                            <div class="feature-body">
+                                <h4>Saúde e Educação</h4>
+                                <p>Desconto de até <strong>60%</strong> na alíquota em mensalidades e medicamentos.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-emoji">🛥️</div>
+                            <div class="feature-body">
+                                <h4>IPVA sobre Luxo</h4>
+                                <p>Jatos, iates e lanchas passarão a pagar IPVA pela primeira vez.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cover-footer">
+                        <span class="ig-handle">@milenelucena87</span>
+                        <span class="swipe-cta">Arraste →</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SLIDE 4: EMPRESAS ===================== -->
+        <section class="slide slide-business" id="slide-4">
+            <div class="slide-inner">
+                <div class="deco-orb orb-1 orb-blue"></div>
+                <div class="deco-orb orb-2 orb-blue"></div>
+                <div class="grid-overlay"></div>
+
+                <div class="slide-content">
+                    <div class="badge badge-blue">
+                        <span class="badge-dot dot-blue"></span>
+                        PARA NEGÓCIOS
+                    </div>
+
+                    <h2 class="slide-heading">
+                        O impacto nas<br>
+                        <span class="gradient-text-blue">Empresas</span>
+                    </h2>
+
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <div class="feature-emoji">⛓️‍💥</div>
+                            <div class="feature-body">
+                                <h4>Fim do Efeito Cascata</h4>
+                                <p>O imposto não será mais cobrado sobre imposto. <strong>Não-cumulatividade plena.</strong></p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-emoji">📑</div>
+                            <div class="feature-body">
+                                <h4>Crédito Amplo</h4>
+                                <p>Tudo que a empresa comprar gera crédito fiscal de forma simplificada.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-emoji">⚡</div>
+                            <div class="feature-body">
+                                <h4>Menos Burocracia</h4>
+                                <p>Eliminação de milhares de obrigações acessórias e regras conflitantes.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-emoji">✈️</div>
+                            <div class="feature-body">
+                                <h4>Exportação Desonerada</h4>
+                                <p>Desoneração total e automática de investimentos e exportações.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cover-footer">
+                        <span class="ig-handle">@milenelucena87</span>
+                        <span class="swipe-cta">Arraste →</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SLIDE 5: GOVERNO ===================== -->
+        <section class="slide slide-gov" id="slide-5">
+            <div class="slide-inner">
+                <div class="deco-orb orb-1 orb-green"></div>
+                <div class="deco-orb orb-2 orb-green"></div>
+                <div class="grid-overlay"></div>
+
+                <div class="slide-content">
+                    <div class="badge badge-green">
+                        <span class="badge-dot dot-green"></span>
+                        PARA O ESTADO
+                    </div>
+
+                    <h2 class="slide-heading">
+                        Como muda a gestão<br>
+                        <span class="gradient-text-green">do Governo</span>
+                    </h2>
+
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <div class="feature-emoji">🎯</div>
+                            <div class="feature-body">
+                                <h4>Tributação no Destino</h4>
+                                <p>Imposto arrecadado onde o produto é <strong>consumido</strong>, não onde é produzido.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-emoji">🕊️</div>
+                            <div class="feature-body">
+                                <h4>Fim da Guerra Fiscal</h4>
+                                <p>Estados perdem a capacidade de conceder isenções para atrair empresas.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-emoji">🏛️</div>
+                            <div class="feature-body">
+                                <h4>Conselho Federativo</h4>
+                                <p>Comitê unificado para gerenciar, arrecadar e distribuir as receitas.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-emoji">🔍</div>
+                            <div class="feature-body">
+                                <h4>Transparência Total</h4>
+                                <p>Split payment digital e fatura eletrônica contra sonegação fiscal.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cover-footer">
+                        <span class="ig-handle">@milenelucena87</span>
+                        <span class="swipe-cta">Arraste →</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SLIDE 6: CRONOGRAMA ===================== -->
+        <section class="slide slide-timeline" id="slide-6">
+            <div class="slide-inner">
+                <div class="deco-orb orb-1"></div>
+                <div class="deco-orb orb-2"></div>
+                <div class="grid-overlay"></div>
+
+                <div class="slide-content">
+                    <div class="badge">
+                        <span class="badge-dot"></span>
+                        CRONOGRAMA
+                    </div>
+
+                    <h2 class="slide-heading">
+                        A transição gradual<br>
+                        <span class="gradient-text">até 2033</span>
+                    </h2>
+
+                    <div class="timeline">
+                        <div class="tl-track"></div>
+
+                        <div class="tl-item">
+                            <div class="tl-year">2026</div>
+                            <div class="tl-dot"></div>
+                            <div class="tl-card">
+                                <p>Início com alíquota teste de <strong>1%</strong> para adaptação dos sistemas.</p>
+                            </div>
+                        </div>
+
+                        <div class="tl-item">
+                            <div class="tl-year">2027</div>
+                            <div class="tl-dot"></div>
+                            <div class="tl-card">
+                                <p>CBS entra em vigor e PIS/COFINS são <strong>extintos</strong>.</p>
+                            </div>
+                        </div>
+
+                        <div class="tl-item">
+                            <div class="tl-year">2029-2032</div>
+                            <div class="tl-dot"></div>
+                            <div class="tl-card">
+                                <p>IBS entra gradativamente e ICMS/ISS são <strong>reduzidos</strong>.</p>
+                            </div>
+                        </div>
+
+                        <div class="tl-item">
+                            <div class="tl-year">2033</div>
+                            <div class="tl-dot"></div>
+                            <div class="tl-card">
+                                <p>Consolidação total. Impostos antigos <strong>extintos</strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="legal-ref">
+                        📜 Fundamentação Legal: <strong>Emenda Constitucional nº 132/2023</strong>
+                    </div>
+
+                    <div class="cta-box">
+                        <p class="cta-text">Gostou? Salve e compartilhe!</p>
+                        <div class="cta-actions">
+                            <span>❤️ Curta</span>
+                            <span>💬 Comente</span>
+                            <span>✈️ Envie</span>
+                            <span>🔖 Salve</span>
+                        </div>
+                    </div>
+
+                    <div class="cover-footer">
+                        <span class="ig-handle">@milenelucena87</span>
+                        <span class="swipe-cta">Obrigado! ✨</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Navigation -->
+    <div class="nav-bar" id="nav-bar">
+        <button class="nav-btn" onclick="prevSlide()" id="arrow-prev" disabled>←</button>
+        <div class="nav-dots" id="nav-dots">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+            <span class="dot" onclick="goToSlide(3)"></span>
+            <span class="dot" onclick="goToSlide(4)"></span>
+            <span class="dot" onclick="goToSlide(5)"></span>
+        </div>
+        <button class="nav-btn" onclick="nextSlide()" id="arrow-next">→</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
