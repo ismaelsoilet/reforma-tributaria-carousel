@@ -193,7 +193,7 @@ body {
     position: relative;
     z-index: 10;
     height: 100%;
-    padding: 65px 65px 50px;
+    padding: 55px 55px 40px;
     display: flex;
     flex-direction: column;
 }
@@ -202,24 +202,24 @@ body {
 .badge {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     background: rgba(139, 92, 246, 0.12);
     border: 1px solid rgba(139, 92, 246, 0.3);
-    padding: 10px 22px;
+    padding: 14px 28px;
     border-radius: 100px;
-    font-size: 0.95rem;
+    font-size: 1.3rem;
     font-weight: 700;
     letter-spacing: 2.5px;
     color: var(--purple-300);
     width: fit-content;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 .badge-dot {
-    width: 8px; height: 8px;
+    width: 10px; height: 10px;
     background: var(--purple-500);
     border-radius: 50%;
-    box-shadow: 0 0 10px var(--purple-500);
+    box-shadow: 0 0 12px var(--purple-500);
 }
 
 .badge-pink { background: rgba(236, 72, 153, 0.1); border-color: rgba(236, 72, 153, 0.3); color: var(--pink-400); }
@@ -231,19 +231,19 @@ body {
 
 /* --- TYPOGRAPHY --- */
 .cover-title {
-    font-size: 5.8rem;
+    font-size: 7.5rem;
     font-weight: 900;
     line-height: 1.0;
-    letter-spacing: -3px;
-    margin-bottom: 25px;
+    letter-spacing: -4px;
+    margin-bottom: 20px;
 }
 
 .slide-heading {
-    font-size: 4.2rem;
+    font-size: 5.5rem;
     font-weight: 800;
     line-height: 1.05;
-    letter-spacing: -2px;
-    margin-bottom: 18px;
+    letter-spacing: -2.5px;
+    margin-bottom: 15px;
 }
 
 .gradient-text {
@@ -275,19 +275,19 @@ body {
 }
 
 .cover-subtitle {
-    font-size: 1.9rem;
+    font-size: 2.4rem;
     font-weight: 400;
     color: var(--white-70);
-    line-height: 1.45;
-    max-width: 800px;
-    margin-bottom: 30px;
+    line-height: 1.4;
+    max-width: 900px;
+    margin-bottom: 20px;
 }
 
 .slide-subtext {
-    font-size: 1.65rem;
+    font-size: 2rem;
     color: var(--white-70);
-    line-height: 1.45;
-    margin-bottom: 30px;
+    line-height: 1.4;
+    margin-bottom: 20px;
 }
 
 /* --- FOOTER (all slides) --- */
@@ -301,14 +301,14 @@ body {
 }
 
 .ig-handle {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 800;
     color: var(--purple-400);
     letter-spacing: 0.3px;
 }
 
 .swipe-cta {
-    font-size: 1.15rem;
+    font-size: 1.6rem;
     color: var(--white-50);
     font-weight: 500;
 }
@@ -325,13 +325,13 @@ body {
 
 .hex-grid {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
 }
 
 .hex {
-    width: 180px;
-    height: 200px;
+    width: 240px;
+    height: 270px;
     background: linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(139, 92, 246, 0.05) 100%);
     border: 2px solid rgba(139, 92, 246, 0.3);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -342,28 +342,28 @@ body {
 }
 
 .hex span {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 900;
     color: var(--white);
     text-shadow: 0 0 30px rgba(139, 92, 246, 0.6);
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .hex-1 {
-    transform: translateY(40px);
+    transform: translateY(50px);
     background: linear-gradient(135deg, rgba(139, 92, 246, 0.25), rgba(139, 92, 246, 0.08));
     border-color: rgba(139, 92, 246, 0.5);
 }
 
 .hex-2 {
-    transform: translateY(-40px) scale(1.15);
+    transform: translateY(-50px) scale(1.15);
     background: linear-gradient(135deg, rgba(168, 85, 247, 0.3), rgba(109, 40, 217, 0.1));
     border-color: rgba(168, 85, 247, 0.5);
     box-shadow: 0 0 60px rgba(139, 92, 246, 0.15);
 }
 
 .hex-3 {
-    transform: translateY(40px);
+    transform: translateY(50px);
     background: linear-gradient(135deg, rgba(236, 72, 153, 0.2), rgba(236, 72, 153, 0.05));
     border-color: rgba(236, 72, 153, 0.4);
 }
@@ -389,11 +389,11 @@ body {
 
 .system-label {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 800;
     letter-spacing: 3px;
-    padding: 12px;
-    border-radius: 14px 14px 0 0;
+    padding: 16px;
+    border-radius: 16px 16px 0 0;
     margin-bottom: 0;
 }
 
@@ -415,10 +415,10 @@ body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    padding: 22px;
+    gap: 14px;
+    padding: 24px;
     background: rgba(10, 5, 25, 0.5);
-    border-radius: 0 0 14px 14px;
+    border-radius: 0 0 16px 16px;
     backdrop-filter: blur(10px);
 }
 
@@ -433,13 +433,13 @@ body {
 }
 
 .chip {
-    padding: 14px 18px;
-    border-radius: 12px;
+    padding: 18px 22px;
+    border-radius: 14px;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 14px;
 }
 
 .chip-old {
@@ -449,7 +449,7 @@ body {
 }
 
 .chip-sub {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: var(--white-50);
     margin-left: auto;
@@ -464,27 +464,27 @@ body {
 .chip-large {
     flex-direction: column;
     align-items: flex-start;
-    gap: 5px;
-    padding: 20px;
+    gap: 8px;
+    padding: 26px;
 }
 
 .chip-large strong {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     color: var(--purple-300);
 }
 
 .chip-detail {
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     color: var(--white-70);
 }
 
 .chip-scope {
-    font-size: 0.85rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--purple-400);
     background: rgba(139, 92, 246, 0.12);
-    padding: 4px 12px;
+    padding: 8px 18px;
     border-radius: 100px;
     margin-top: 4px;
 }
@@ -507,14 +507,14 @@ body {
 }
 
 .arrow-circle {
-    width: 44px; height: 44px;
+    width: 52px; height: 52px;
     border-radius: 50%;
     background: var(--purple-700);
     border: 2px solid var(--purple-500);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: var(--white);
     box-shadow: 0 0 25px rgba(139, 92, 246, 0.35);
 }
@@ -525,9 +525,9 @@ body {
 .feature-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 24px;
     flex-grow: 1;
-    margin: 10px 0 20px;
+    margin: 5px 0 15px;
     align-content: center;
 }
 
@@ -535,10 +535,10 @@ body {
     background: rgba(10, 5, 25, 0.5);
     border: 1px solid var(--white-10);
     backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 30px 28px;
+    border-radius: 22px;
+    padding: 36px 32px;
     display: flex;
-    gap: 18px;
+    gap: 20px;
     align-items: flex-start;
     transition: border-color 0.3s;
 }
@@ -550,22 +550,22 @@ body {
 .feature-card:hover { border-color: var(--white-20); }
 
 .feature-emoji {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     line-height: 1;
     flex-shrink: 0;
 }
 
 .feature-body h4 {
-    font-size: 1.35rem;
+    font-size: 1.8rem;
     font-weight: 800;
     margin-bottom: 8px;
     color: var(--white);
 }
 
 .feature-body p {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     color: var(--white-70);
-    line-height: 1.5;
+    line-height: 1.45;
 }
 
 .feature-body p strong { color: var(--white); font-weight: 700; }
@@ -579,10 +579,12 @@ body {
 .timeline {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 22px;
     position: relative;
-    padding-left: 60px;
-    margin: 10px 0 20px;
+    padding-left: 65px;
+    margin: 10px 0 15px;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .tl-track {
@@ -605,12 +607,12 @@ body {
 
 .tl-dot {
     position: absolute;
-    left: -48px;
-    width: 14px; height: 14px;
+    left: -51px;
+    width: 18px; height: 18px;
     background: var(--purple-500);
     border: 3px solid var(--purple-900);
     border-radius: 50%;
-    box-shadow: 0 0 12px rgba(139, 92, 246, 0.5);
+    box-shadow: 0 0 14px rgba(139, 92, 246, 0.5);
     z-index: 2;
 }
 
@@ -618,10 +620,10 @@ body {
     background: linear-gradient(135deg, var(--purple-700), var(--purple-600));
     color: var(--white);
     font-weight: 800;
-    font-size: 1.15rem;
-    padding: 10px 18px;
-    border-radius: 12px;
-    min-width: 100px;
+    font-size: 1.6rem;
+    padding: 14px 22px;
+    border-radius: 14px;
+    min-width: 130px;
     text-align: center;
     box-shadow: 0 4px 15px rgba(109, 40, 217, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -633,12 +635,12 @@ body {
     background: rgba(10, 5, 25, 0.5);
     border: 1px solid var(--white-10);
     backdrop-filter: blur(10px);
-    border-radius: 14px;
-    padding: 16px 22px;
+    border-radius: 16px;
+    padding: 20px 26px;
 }
 
 .tl-card p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: var(--white-70);
     line-height: 1.4;
 }
@@ -647,25 +649,25 @@ body {
 
 .legal-ref {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: var(--purple-300);
     background: rgba(139, 92, 246, 0.08);
     border: 1px solid rgba(139, 92, 246, 0.2);
-    padding: 14px 20px;
-    border-radius: 12px;
+    padding: 18px 24px;
+    border-radius: 14px;
     margin-bottom: 18px;
 }
 
 .cta-box {
     background: linear-gradient(135deg, rgba(109, 40, 217, 0.2), rgba(236, 72, 153, 0.1));
     border: 1px solid rgba(139, 92, 246, 0.25);
-    border-radius: 18px;
-    padding: 25px;
+    border-radius: 20px;
+    padding: 30px;
     text-align: center;
 }
 
 .cta-text {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 800;
     margin-bottom: 15px;
 }
@@ -673,8 +675,8 @@ body {
 .cta-actions {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    font-size: 1.15rem;
+    gap: 35px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--white-70);
 }
